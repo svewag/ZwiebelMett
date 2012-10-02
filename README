@@ -1,5 +1,6 @@
 This is ZwiebelMett
 
 it gives you a Runtime which allows you to Register Doclets once per Page.
-This Doclets are able to create Containers (Widgets) which has a instance.
+This Doclets are able to create Containers (Widgets) which has a instance. This instance is bind as data-object to the corresponding DOM-Element of the Container. This Runtime comes with a built-in pub/sub mechansim, an AJAX-Loader for reinvoking the bind mechanism on the loaded HTML snippets and a test framework.
 The Doclet could bind a Container than the Container does not have any instance.
+At this moment there is dependency on jQuery.
